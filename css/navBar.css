@@ -1,126 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-*{
-    margin: 0%;
-}
-
-nav{
-    background-color: rgb(171, 88, 204);
-}
-
-body{
-    background-color: cadetblue;
-}
-
-h1{
-    font-family: "Roboto", sans-serif;
-    font-size: 5rem;
-    margin-top: 0%;
-    margin-left: 5%;
-}
-
 div{
-    margin-left: 15%;
+    /* essa função é apenas para definir a posição do elemento na tela */
+    margin-left: 25%;
+    margin-top: 25%;
 }
 
-a{
-    margin-right: 5%;
+img{
+     height: 1vh;
+    width: 2vw;
 }
 
-.cachorro{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(160, 116, 116);
-    font-size: 2rem;
+div:hover img{
+    /* toda vez que o mouse passar por cima da div, a imagem aparecerá */
+    display:inline-block;
+
 }
 
-.gato{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(204, 121, 186);
-    font-size: 2rem;
+div img{
+    /* a imagem deve ter um display none para não aparecer na tela */
+    display: none;
+   
 }
 
-.passaro{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(98, 185, 102);
-    font-size: 2rem;
+img{
+    /* tamanho da imagem e tipo de display */
+    height: 4vh;
+    width:2vw;
+    display: inline-block;
 }
 
-.peixe{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(113, 197, 179);
-    font-size: 2rem;
-}
-
-.hamster{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(216, 158, 158);
-    font-size: 2rem;
-}
-
-.exoticos{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(187, 207, 98);
-    font-size: 2rem;
-}
-
-
-:hover.cachorro{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(160, 116, 116);
-    font-size: 3rem;
-    border: 1px solid black;
-    background-color: rgb(232, 234, 236);
-}
-
-:hover.gato{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(204, 121, 186);
-    font-size: 3rem;
-    border: 1px solid black;
-    background-color: rgb(232, 234, 236);
-    
-}
-
-:hover.passaro{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(98, 185, 102);
-    font-size: 3rem;
-    border: 1px solid black;
-    background-color: rgb(232, 234, 236);
-}
-
-:hover.peixe{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(113, 197, 179);
-    font-size: 3rem;
-    border: 1px solid black;
-    background-color: rgb(232, 234, 236);
-}
-
-:hover.hamster{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(216, 158, 158);
-    font-size: 3rem;
-    border: 1px solid black;
-    background-color: rgb(232, 234, 236);
-}
-
-:hover.exoticos{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: rgb(187, 207, 98);
-    font-size: 3rem;
-    border: 1px solid black;
-    background-color: rgb(232, 234, 236);
+p{
+    /* tamanho e tipo de display do paragrafo */
+    display: inline-block;
+    font-size: 200%;
 }
